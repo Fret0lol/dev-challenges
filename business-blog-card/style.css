@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body {
+  background-color: #F2F5F9;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+h3 {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.5rem;
+}
+p {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  font-size: 1rem;
+  color: #677489;
+  line-height: 26px;
+}
+.card {
+  margin: 162px auto;
+  border-radius: 16px;
+  width: 418px;
+  background-color: #FFFFFF;
+}
+.card-image {
+  position: relative;
+  width: fit-content;
+}
+.card-image img {
+  width: 418px;
+  border-radius: 8px 8px 0 0 ;
+}
+.card-image .overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.card-content {
+  padding: 0 35px 25px 35px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.card-footer {
+  padding: 25px 35px;
+  border-top: 1px solid #F2F5F9;
+}
+.author {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+.card-footer img {
+  width: 38px;
+  border: 5px solid #F2F5F9;
+  border-radius: 50%;
+}
+.card-footer .author-name {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  color: #111729;
+}
+.card-footer .author-job {
+  font-size: 0.8rem;
+  color: #677489;
+  line-height: 12px;
+}
